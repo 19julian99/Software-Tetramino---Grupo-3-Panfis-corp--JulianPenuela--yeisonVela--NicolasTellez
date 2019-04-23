@@ -15,4 +15,4 @@ En este repositorio se encontrará toda la información y el código fuente de u
  
 A para modelar cada rotación del tetramino se conocerán sus distintas posiciones como estados, en este caso para las figuras solo tiene dos posibles casos cuando se rotan que se explicaran en el siguiente gráfico, se supone que cada figura dispone de 4 estados pero la figura s y z son un caso especial ya que básicamente solo cambia una vez de posición y vuelve a su estado inicial esto lo podríamos considerar como una relación bidireccional entre estados. 
 
-![alt text](https://killforlife123.blogspot.com/2019/04/blog-post.html)
+![alt text](https://3.bp.blogspot.com/-Q4VQXFwyicA/XL95ahY3IvI/AAAAAAAAAgM/U-XSjZ4ONZ0BQq6b_2xKDaOZ0EB_-9b8wCLcBGAs/s1600/img.png)
