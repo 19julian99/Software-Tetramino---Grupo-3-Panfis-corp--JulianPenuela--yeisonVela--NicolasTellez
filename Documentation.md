@@ -51,6 +51,7 @@ Estándares de declaración de variables y métodos en java code:
 *Facilidad en Mantenimiento de la aplicación. 
 *Permite el fácil entendimiento para cualquier persona. 
 *Mejora de la legibilidad del código. 
+| Attempt | #1 | #2 | #3 | #4 | #5 | #6 | #7 | #8 | #9 | #10 | #11 | #12 | | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | | Seconds | 301 | 283 | 290 | 286 | 289 | 285 | 287 | 287 | 272 | 276 | 269 | 254 | 
 
 
 
