@@ -51,8 +51,27 @@ Estándares de declaración de variables y métodos en java code:
 *Facilidad en Mantenimiento de la aplicación. 
 *Permite el fácil entendimiento para cualquier persona. 
 *Mejora de la legibilidad del código. 
-| Attempt | #1 | #2 | #3 | #4 | #5 | #6 | #7 | #8 | #9 | #10 | #11 | #12 | | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | | Seconds | 301 | 283 | 290 | 286 | 289 | 285 | 287 | 287 | 272 | 276 | 269 | 254 | 
-
+___________________________________________________________________________________________________________
+# ||-----------------------------------------------Ficheros------------------------------------------------||
+  ||Las diferentes clases en Java se las debe agrupar por paquetes, por lo que se les debe organizar de una||
+  ||manera jerárquica seguidos por un punto como separador, dentro del paquete principal se deben organizar||
+  ||los diferentes subpaquetes dependiendo de las diferentes funciones que vaya a cumplir dicha aplicación,||
+  ||en este caso se desarrollara un servicio web se debería tener una estructura similar atetris.webservice||
+  ||.data, donde tetris es el nombre de la aplicación, web service el paquete principal y data subpaquete. ||
+___________________________________________________________________________________________________________
+# ||------------------------------------Variables de clase (estáticas)------------------------------------||
+  ||En primer lugar las variables de clase públicas (public), después las protegidas (protected),         ||
+  ||posteriormente las de nivel de paquete (sin modificador), y por último las privadas (private).        ||   
+___________________________________________________________________________________________________________
+# ||----------------------------------------Variables de instancia ----------------------------------------||
+  ||Primero las públicas (public), después las protegidas (protected), luego las de nivel de paquete       ||
+  ||(sin modificador), y finalmente las privadas (private).                                                ||
+  ___________________________________________________________________________________________________________
+# ||----------------------------------------------Métodos-----------------------------------------------------||
+  ||Deben agruparse por funcionalidad en lugar de agruparse por ámbito o accesibilidad. Por ejemplo, un método||
+  ||privado puede estar situado entre dos métodos públicos. El objetivo es desarrollar código fácil de leer y || 
+  ||comprender.                                                                                               ||
+_______________________________________________________________________________________________________________                                                   
 
 
 
