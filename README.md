@@ -17,7 +17,10 @@ A para modelar cada rotación del tetramino se conocerán sus distintas posicion
 
 ![alt text](https://3.bp.blogspot.com/-Q4VQXFwyicA/XL95ahY3IvI/AAAAAAAAAgM/U-XSjZ4ONZ0BQq6b_2xKDaOZ0EB_-9b8wCLcBGAs/s1600/img.png)
 Al final del programa deberá juntarse los tetraminós por medio de un servidor web con el tablero que es una matriz de 22x10 en la cual aparecerán aleatoriamente los tetraminós, el usuario podrá rotarlos en cualquier dirección además de poder hacer su movimiento horizontal y vertical en el eje -x, además de esto el usuario podrá ingresar un apodo y se le calculará un puntaje. 
-![alt text](https://1.bp.blogspot.com/-E-ZQEmcim5k/XL-EUxAtgI/AAAAAAAAAgo/_dKr9MD3j5EZhOzsqmkl1qw1jQUGL3v1ACLcBGAs/s1600/Diapositiva2.PNG)
+![alt text](https://1.bp.blogspot.com/-E-ZQEmcim5k/XL-EUxAtg-I/AAAAAAAAAgo/_dKr9MD3j5EZhOzsqmkl1qw1jQUGL3v1ACLcBGAs/s640/Diapositiva2.PNG)
+https://4.bp.blogspot.com/-5XHCJfRpth0/XL-EU0o9OLI/AAAAAAAAAgk/WXXWY0D-9B0lv7H1ThzwThF9iOanBuMQwCLcBGAs/s1600/Diapositiva3.PNG
+
+
 2. vista de desarrollo:
 Lista de requerimientos:
 Funcionales: 
