@@ -52,11 +52,11 @@ Estándares de declaración de variables y métodos en java code:
 *Permite el fácil entendimiento para cualquier persona. 
 *Mejora de la legibilidad del código. 
 ___________________________________________________________________________________________________________
-  ||-----------------------------------------------Ficheros------------------------------------------------||
-  ||Las diferentes clases en Java se las debe agrupar por paquetes, por lo que se les debe organizar de una||
-  ||manera jerárquica seguidos por un punto como separador, dentro del paquete principal se deben organizar||
-  ||los diferentes subpaquetes dependiendo de las diferentes funciones que vaya a cumplir dicha aplicación,||
-  ||en este caso se desarrollara un servicio web se debería tener una estructura similar atetris.webservice||
+  ||-------------------------------------------------------------Ficheros-------------------------------------------------------------||
+  ||    Las diferentes clases en Java se las debe agrupar por paquetes, por lo que se les debe organizar de una                       ||
+  ||    manera jerárquica seguidos por un punto como separador, dentro del paquete principal se deben organizar                      ||
+  ||    los diferentes subpaquetes dependiendo de las diferentes funciones que vaya a cumplir dicha aplicación,                       ||
+  ||    en este caso se desarrollara un servicio web se debería tener una estructura similar atetris.webservice                       ||
   ||.data, donde tetris es el nombre de la aplicación, web service el paquete principal y data subpaquete. ||
 ___________________________________________________________________________________________________________
   ||------------------------------------Variables de clase (estáticas)------------------------------------||
