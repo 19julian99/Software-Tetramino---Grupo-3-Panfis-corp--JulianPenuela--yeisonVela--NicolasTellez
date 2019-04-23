@@ -32,6 +32,9 @@ El metodo de Posicion inicial se usa para la rotacion de la figura al estado ini
         this.is4 = is4;
         this.js4 = js4;
     }
+   ```
+   ___
+   ```
      public void rotarFiguraS() {
 
         this.is1 = is1;
