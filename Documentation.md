@@ -53,24 +53,24 @@ Estándares de declaración de variables y métodos en java code:
 *Mejora de la legibilidad del código. 
 ___________________________________________________________________________________________________________
   ||-------------------------------------------------------------Ficheros-------------------------------------------------------------||
-  ||    Las diferentes clases en Java se las debe agrupar por paquetes, por lo que se les debe organizar de una                       ||
-  ||    manera jerárquica seguidos por un punto como separador, dentro del paquete principal se deben organizar                      ||
-  ||    los diferentes subpaquetes dependiendo de las diferentes funciones que vaya a cumplir dicha aplicación,                       ||
-  ||    en este caso se desarrollara un servicio web se debería tener una estructura similar atetris.webservice                       ||
-  ||.data, donde tetris es el nombre de la aplicación, web service el paquete principal y data subpaquete. ||
+      Las diferentes clases en Java se las debe agrupar por paquetes, por lo que se les debe organizar de una                       
+      manera jerárquica seguidos por un punto como separador, dentro del paquete principal se deben organizar                      
+      los diferentes subpaquetes dependiendo de las diferentes funciones que vaya a cumplir dicha aplicación,                       
+      en este caso se desarrollara un servicio web se debería tener una estructura similar atetris.webservice                       
+  .data, donde tetris es el nombre de la aplicación, web service el paquete principal y data subpaquete. 
 ___________________________________________________________________________________________________________
-  ||------------------------------------Variables de clase (estáticas)------------------------------------||
-  ||En primer lugar las variables de clase públicas (public), después las protegidas (protected),         ||
-  ||posteriormente las de nivel de paquete (sin modificador), y por último las privadas (private).        ||   
+  ||--------------------------------------------------Variables de clase (estáticas)--------------------------------------------------||
+  En primer lugar las variables de clase públicas (public), después las protegidas (protected),         
+  posteriormente las de nivel de paquete (sin modificador), y por último las privadas (private).           
 ___________________________________________________________________________________________________________
-  ||----------------------------------------Variables de instancia ----------------------------------------||
-  ||Primero las públicas (public), después las protegidas (protected), luego las de nivel de paquete       ||
-  ||(sin modificador), y finalmente las privadas (private).                                                ||
+  ||------------------------------------------------------Variables de instancia -----------------------------------------------------||
+  Primero las públicas (public), después las protegidas (protected), luego las de nivel de paquete       
+  (sin modificador), y finalmente las privadas (private).                                                
   ___________________________________________________________________________________________________________
-  ||----------------------------------------------Métodos-----------------------------------------------------||
-  ||Deben agruparse por funcionalidad en lugar de agruparse por ámbito o accesibilidad. Por ejemplo, un método||
-  ||privado puede estar situado entre dos métodos públicos. El objetivo es desarrollar código fácil de leer y || 
-  ||comprender.                                                                                               ||
+  ||------------------------------------------------------------Métodos---------------------------------------------------------------||
+  Deben agruparse por funcionalidad en lugar de agruparse por ámbito o accesibilidad. Por ejemplo, un método
+  privado puede estar situado entre dos métodos públicos. El objetivo es desarrollar código fácil de leer y  
+  comprender.                                                                                               
 _______________________________________________________________________________________________________________                                                   
 # Nomenclatura: 
 # Paquetes: 
@@ -118,9 +118,13 @@ int matrizZ[][] = new int[4][3];
 Se definirán posiblemente los siguientes métodos, estos métodos son los principales , los dos primero son métodos para hacer girar las figuras y cambiar entre estados , también se tienen dos métodos que hacen mover en el tetramino en el eje Y, y por último tenemos el método que hace descender la figura hasta el final del tablero usando el eje X como referencia, todos los métodos nos retornan datos de posición que se le enviaran al tablero por medio del servicio web.
 
 public static int Girar Derecha( eje x , eje y);
+
 public static int Girar Izquierda( eje x , eje y);
+
 public static int Mover Derecha( eje y);
+
 public static int Mover Izquierda( eje y);
+
 public static int Descender(, eje x );
 
 
