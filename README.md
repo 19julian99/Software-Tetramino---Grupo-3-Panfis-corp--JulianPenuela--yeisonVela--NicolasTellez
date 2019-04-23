@@ -36,7 +36,9 @@ Para la parte del servicio web se planea usar una herramienta básica para la cr
 
 ![alt text](https://4.bp.blogspot.com/-5XHCJfRpth0/XL-EU0o9OLI/AAAAAAAAAgk/WXXWY0D-9B0lv7H1ThzwThF9iOanBuMQwCLcBGAs/s1600/Diapositiva3.PNG
 )
-
+#3).Vista de procesos 
+La vista de procesos representa los flujos de trabajo paso a paso del sistema, en la siguiente figura se aprecia el diagrama de actividades para el programa donde se muestra el funcionamiento de 2 figuras de tetris, en el cual interactúa el usuario directamente con el programa. Para empezar se necesita que el usuario ingrese al programa, luego aparecerá una de las figuras que nos correspondió, en el momento de que la figura aparezca en el tablero el jugador tendrá la opción de que al momento de oprimir ciertas teclas podrá mover la figura de derecha a izquierda y viceversa, podrá girarse en dirección de derecha o izquierda, todo esto con el fin de que el usuario pueda acomodar la figura de la mejor manera en el tablero para lograr una mejor puntuación y por último tendrá la opción de bajar directamente la ficha al final del tablero, logrando así que el jugador interactúe directamente con las figuras correspondientes   
+![alt text](https://2.bp.blogspot.com/-9SMral_lhPg/XL-EU1op4DI/AAAAAAAAAgs/xmppUAdQHmgX5rP7HA-D6RapKckZA-l1QCLcBGAs/s1600/Diapositiva4.PNG)
 
 
 
