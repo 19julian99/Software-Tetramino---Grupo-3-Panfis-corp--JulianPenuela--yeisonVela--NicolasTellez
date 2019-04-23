@@ -6,7 +6,7 @@ En este repositorio se encontrará toda la información y el código fuente de u
 3.Estándares de declaración de variables y métodos. 
 4.Especificaciones de la forma de firma. 
 
-#1. Verificación de diseño inicial. 
+# 1.Verificación de diseño inicial. 
 1). Vista lógica: 
 -Nos correspondió el tetramino s y z, los cuales se representarán en java por medio de matrices de 3x3, cada tetramino va a tener 3 operaciones básicas que son: 
 1. rotar a la derecha 
@@ -19,7 +19,7 @@ A para modelar cada rotación del tetramino se conocerán sus distintas posicion
 Al final del programa deberá juntarse los tetraminós por medio de un servidor web con el tablero que es una matriz de 22x10 en la cual aparecerán aleatoriamente los tetraminós, el usuario podrá rotarlos en cualquier dirección además de poder hacer su movimiento horizontal y vertical en el eje -x, además de esto el usuario podrá ingresar un apodo y se le calculará un puntaje. 
 ![alt text](https://1.bp.blogspot.com/-E-ZQEmcim5k/XL-EUxAtg-I/AAAAAAAAAgo/_dKr9MD3j5EZhOzsqmkl1qw1jQUGL3v1ACLcBGAs/s640/Diapositiva2.PNG)
 
-#2. vista de desarrollo:
+# 2.Vista de desarrollo:
 Lista de requerimientos:
 Funcionales: 
 
@@ -36,9 +36,22 @@ Para la parte del servicio web se planea usar una herramienta básica para la cr
 
 ![alt text](https://4.bp.blogspot.com/-5XHCJfRpth0/XL-EU0o9OLI/AAAAAAAAAgk/WXXWY0D-9B0lv7H1ThzwThF9iOanBuMQwCLcBGAs/s1600/Diapositiva3.PNG
 )
-#3).Vista de procesos 
+# 3).Vista de procesos 
 La vista de procesos representa los flujos de trabajo paso a paso del sistema, en la siguiente figura se aprecia el diagrama de actividades para el programa donde se muestra el funcionamiento de 2 figuras de tetris, en el cual interactúa el usuario directamente con el programa. Para empezar se necesita que el usuario ingrese al programa, luego aparecerá una de las figuras que nos correspondió, en el momento de que la figura aparezca en el tablero el jugador tendrá la opción de que al momento de oprimir ciertas teclas podrá mover la figura de derecha a izquierda y viceversa, podrá girarse en dirección de derecha o izquierda, todo esto con el fin de que el usuario pueda acomodar la figura de la mejor manera en el tablero para lograr una mejor puntuación y por último tendrá la opción de bajar directamente la ficha al final del tablero, logrando así que el jugador interactúe directamente con las figuras correspondientes   
 ![alt text](https://2.bp.blogspot.com/-9SMral_lhPg/XL-EU1op4DI/AAAAAAAAAgs/xmppUAdQHmgX5rP7HA-D6RapKckZA-l1QCLcBGAs/s1600/Diapositiva4.PNG)
+#4). Vista Física 
+La vista física representa como están distribuidos los componentes entre los distintos equipos que conforman la solución, en este caso nosotros vamos a crear el programa con el que queremos realizar el movimiento de 2 fichas llamadas Tetraminos del juego de tetris, el lenguaje de programación que vamos a utilizar en este caso es java más específicamente netBeans IDE 8.2 cómo nosotros vamos a unir nuestro código con los demás códigos, los cuales probablemente estén en otros lenguajes de programación por lo cual vamos a utilizar servidores web de Oracle como por ejemplo la aplicación GlassFish con los que podamos fusionar los códigos y lograr realizar un solo programa que corra a la perfección.
+Diagrama de componenetes y despliegue. 
+![alt text](https://1.bp.blogspot.com/-TSLaGcEOqBs/XL-EVVx4kGI/AAAAAAAAAgw/Yy3FC6FI_v4ZlPm6lhtMYUGZgtU68pLcwCLcBGAs/s1600/Diapositiva5.PNG)
+# Estructura de archivos. 
+![alt text](https://1.bp.blogspot.com/-opnVLmPyySk/XL-EVq9akWI/AAAAAAAAAg0/JRmlAkwUmhwujlpR5u6gDTPuh6caZseyACLcBGAs/s1600/Diapositiva6.PNG)
+# 3. Estándares de declaración de variables y métodos. 
+Estándares de declaración de variables y métodos en java code: 
+ Ventajas que podemos tener para el uso de estos estándares son: 
+*Facilidad en Mantenimiento de la aplicación. 
+*Permite el fácil entendimiento para cualquier persona. 
+*Mejora de la legibilidad del código. 
+
 
 
 
